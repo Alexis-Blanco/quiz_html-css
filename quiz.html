@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML_QUIZ</title>
 </head>
+<link rel="stylesheet" href="./estilo.css">
 <body>
     <h1>Master en CCS: Responsive Desing</h1>
-    <nav>
+    <nav class="listaprincipal">
         <li>Inicio</li>
         <li>Temario</li>
-            <ul>
+            <ul class="listasecundaria">
             <li>HTML</li>
             <li>CSS</li>
             <li>LESS</li>
@@ -18,10 +19,18 @@
         <li>Reseña</li>
         <li>Contacto</li>
     </nav>
+    <fieldset>
     <h2>Descripción</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium at consequuntur ea, quidem suscipit ratione beatae non! Odio nobis rerum quidem qui veniam officiis ipsa est dolor facilis vel.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus harum illum nisi architecto praesentium suscipit odio, blanditiis iure reiciendis eum ratione dolorem rerum iusto tenetur ut sint earum ipsa non!</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem atque asperiores placeat ipsum nemo ad temporibus pariatur alias tempore, debitis consequuntur hic eligendi magni dolore autem delectus minus tenetur? Sunt.</p>
+    <strong><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium at consequuntur ea, quidem suscipit ratione beatae non! Odio nobis rerum quidem qui veniam officiis ipsa est dolor facilis vel.</strong></em>
+    <br>
+    <br>
+    <mark class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus harum illum nisi architecto praesentium suscipit odio, blanditiis iure reiciendis eum ratione dolorem rerum iusto tenetur ut sint earum ipsa non!</mark>
+    <br>
+    <br>
+    <mark class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem atque asperiores placeat ipsum nemo ad temporibus pariatur alias tempore, debitis consequuntur hic eligendi magni dolore autem delectus minus tenetur? Sunt.</mark>
+    </fieldset>
+    <br>
+    <fieldset id="formulario">
     <form>
         <label for="nombre">Nombre</label>
         <br>
@@ -36,7 +45,10 @@
     <br>
     <br>
     <button>Enviar</button>
+    </fieldset>
+    <br>
     <footer>Hola soy Michel and Mr White</footer>
+    <br>
     <small>Todos los derechos reservados  2025</small>
 </body>
 </html>
